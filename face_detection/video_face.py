@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Jul  2 03:40:59 2020
-
-@author: hp
-"""
 import cv2
 import dlib
 from mtcnn.mtcnn import MTCNN

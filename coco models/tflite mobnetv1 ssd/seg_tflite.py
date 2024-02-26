@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Aug 18 16:23:16 2020
-
-@author: hp
-"""
-
 import numpy as np
 import tensorflow as tf
 import cv2
