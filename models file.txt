@@ -1,0 +1,3 @@
+paste the following link in your web browser-
+https://pjreddie.com/media/files/yolov3.weights
+this will automatically download the file and paste the downloaded file in 'models' folder.
