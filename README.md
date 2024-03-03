@@ -1,3 +1,5 @@
+def generate_readme():
+    readme_content = """
 # Proctoring-AI: Revolutionizing Exam Monitoring with Cutting-Edge Technology 🚀
 
 Welcome to the future of exam proctoring – Proctoring-AI, an innovative project poised to transform the way exams are monitored using advanced artificial intelligence techniques. Let's take a journey through the groundbreaking functionalities of this state-of-the-art system:
@@ -23,6 +25,22 @@ Discover the exciting future enhancements planned for Proctoring-AI, including:
 ## Challenges and Contributions:
 Explore the challenges faced, such as dialect variations in speech-to-text conversion, and learn how you can contribute to this groundbreaking project by sharing ideas or tackling specific tasks outlined in the to-do list. 🧠💡
 
-Join us in shaping the future of exam monitoring with Proctoring-AI – where innovation meets integrity, and technology ensures fairness for all. 🌐
+**Important Note:**
+
+Before diving into the world of Proctoring-AI, ensure you have the necessary prerequisites to embark on this technological journey:
+
+1. **Python 3.8.10 Installation:** Make sure you have Python 3.8.10 installed on your system. You can download it from the official Python website or use a package manager like Anaconda.
+
+2. **Virtual Environment Setup:** It's highly recommended to create a virtual environment for Proctoring-AI to manage dependencies effectively. You can create a virtual environment using tools like `venv` or `virtualenv`.
+
+3. **Check 'models file.txt':** Don't forget to check the 'models file.txt' provided with the Proctoring-AI package. This file contains crucial information regarding the AI models used for various functionalities. Understanding these models is essential for effective utilization of Proctoring-AI.
+
+By ensuring you have Python 3.8.10 installed, setting up a virtual environment, and reviewing the 'models file.txt', you'll be ready to unleash the power of Proctoring-AI and revolutionize exam monitoring with cutting-edge technology!
 
 **Created by:** Bhushan Khopkar 🌟
+"""
+    with open('README.md', 'w') as f:
+        f.write(readme_content)
+
+if __name__ == "__main__":
+    generate_readme()
