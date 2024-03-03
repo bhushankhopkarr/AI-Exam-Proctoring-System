@@ -1,5 +1,3 @@
-def generate_readme():
-    readme_content = """
 # Proctoring-AI: Revolutionizing Exam Monitoring with Cutting-Edge Technology 🚀
 
 Welcome to the future of exam proctoring – Proctoring-AI, an innovative project poised to transform the way exams are monitored using advanced artificial intelligence techniques. Let's take a journey through the groundbreaking functionalities of this state-of-the-art system:
@@ -38,9 +36,3 @@ Before diving into the world of Proctoring-AI, ensure you have the necessary pre
 By ensuring you have Python 3.8.10 installed, setting up a virtual environment, and reviewing the 'models file.txt', you'll be ready to unleash the power of Proctoring-AI and revolutionize exam monitoring with cutting-edge technology!
 
 **Created by:** Bhushan Khopkar 🌟
-"""
-    with open('README.md', 'w') as f:
-        f.write(readme_content)
-
-if __name__ == "__main__":
-    generate_readme()
