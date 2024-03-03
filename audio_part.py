@@ -31,28 +31,21 @@ def read_audio(stream, filename):
 
 def convert(i):
     if i >= 0:
-        sound = 'record' + str(i) +'.wav'
+        sound = f'record{i}.wav'
         r = sr.Recognizer()
-        
+
         with sr.AudioFile(sound) as source:
             r.adjust_for_ambient_noise(source)
-            print("Converting Audio To Text and saving to file..... ") 
-            audio = r.listen(source)
+            print("Converting Audio To Text and saving to file..... ")
+            audio = r.record(source)
         try:
-            value = r.recognize_google(audio) ##### API call to google for speech recognition
+            value = r.recognize_google(audio)  ##### API call to google for speech recognition
             os.remove(sound)
-            if str is bytes: 
-                result = u"{}".format(value).encode("utf-8")
-            else: 
-                result = "{}".format(value)
- 
-            with open("test.txt","a") as f:
-                f.write(result)
-                f.write(" ")
-                f.close()
-                
+            result = value if isinstance(value, bytes) else value
+            with open("test.txt", "a") as f:
+                f.write(result + " ")
         except sr.UnknownValueError:
-            print("")
+            pass
         except sr.RequestError as e:
             print("{0}".format(e))
         except KeyboardInterrupt:
