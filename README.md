@@ -27,7 +27,7 @@ Explore the challenges faced, such as dialect variations in speech-to-text conve
 
 Before diving into the world of Proctoring-AI, ensure you have the necessary prerequisites to embark on this technological journey:
 
-1. **Python 3.8.10 Installation:** Make sure you have Python 3.8.10 installed on your system. You can download it from the official Python website or use a package manager like Anaconda.
+1. **Python 3.8.10 Installation:** Make sure you have Python 3.8.10 installed on your system. You can download it from the official Python website or use a package manager like Anaconda. link- https://www.python.org/downloads/release/python-3810/
 
 2. **Virtual Environment Setup:** It's highly recommended to create a virtual environment for Proctoring-AI to manage dependencies effectively. You can create a virtual environment using tools like `venv` or `virtualenv`.
 
