@@ -3,7 +3,6 @@ import numpy as np
 from face_detector import get_face_detector, find_faces
 from face_landmarks import get_landmark_model, detect_marks
 
-
 def eye_on_mask(mask, side, shape):
     """
     Create ROI on mask of the size of eyes and also find the extreme points of each eye
