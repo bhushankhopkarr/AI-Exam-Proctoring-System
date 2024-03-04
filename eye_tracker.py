@@ -178,7 +178,6 @@ while(True):
         print_eye_pos(img, eyeball_pos_left, eyeball_pos_right)
         # for (x, y) in shape[36:48]:
         #     cv2.circle(img, (x, y), 2, (255, 0, 0), -1)
-        
     cv2.imshow('eyes', img)
     cv2.imshow("image", thresh)
     if cv2.waitKey(1) & 0xFF == ord('q'):
