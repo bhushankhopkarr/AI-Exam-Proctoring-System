@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Jul 30 19:21:18 2020
-
-@author: hp
-"""
-
 import cv2
 import numpy as np
 from face_detector import get_face_detector, find_faces
