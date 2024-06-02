@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Jul 29 17:52:00 2020
-
-@author: hp
-"""
-
 import cv2
 import numpy as np
 
